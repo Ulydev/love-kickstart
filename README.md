@@ -15,7 +15,7 @@ WWIDTH, WHEIGHT = 1920, 1080
 Add external libraries and custom classes (e.g. Player class)
 ```lua
 --Includes
-require "/include/player" --example
+require "include.player" --example
 ```
 
 Start making your game by editing and adding new scenes! By default, **main.lua** redirects to the **game** scene, located in "*/scenes*".
