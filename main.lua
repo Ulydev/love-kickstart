@@ -11,11 +11,11 @@ WWIDTH, WHEIGHT = 1920, 1080 --Game dimensions - 1920/1080 = 16/9 aspect ratio
 --\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\--
 
 --Libraries
-push = require "/lib.push"
-screen = require "/lib/shack" --Screen effects (shake, rotate, shear, scale)
-lem = require "/lib/lem" --Event manager
-lue = require "/lib/lue" --Hue
-state = require "/lib/stager" --Manages scenes and transitions
+push = require "lib.push"
+screen = require "lib.shack" --Screen effects (shake, rotate, shear, scale)
+lem = require "lib.lem" --Event manager
+lue = require "lib.lue" --Hue
+state = require "lib.stager" --Manages scenes and transitions
 
 
 
