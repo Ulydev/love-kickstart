@@ -1,7 +1,6 @@
 ![kickstart][kickstart]
 
 # love-kickstart
-==============
 
 love-kickstarter is a project template that aims at providing the most straightforward tools to quickly set up a LÖVE game, which makes it useful for game jams and hackatons.
 
@@ -42,4 +41,4 @@ What's included - **main.lua**
 
 
 
-[kickstart]: http://s32.postimg.org/e11nud9lx/love.png
+[kickstart]: http://s32.postimg.org/t5bydkfad/love.png
