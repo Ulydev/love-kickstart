@@ -31,7 +31,7 @@ game:draw()
 end
 ```
 
-What's included - **main.lua**
+What's included
 ----------------
 
 [push](https://github.com/Ulydev/push) - Handles everything resolution-related
