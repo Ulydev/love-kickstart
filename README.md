@@ -14,6 +14,7 @@ WWIDTH, WHEIGHT = 1920, 1080
 
 Add external libraries and custom classes (e.g. Player class)
 ```lua
+--Includes
 require "/include/player" --example
 ```
 
@@ -34,9 +35,13 @@ What's included - **main.lua**
 ----------------
 
 [push](https://github.com/Ulydev/push) - Handles everything resolution-related
+
 [shack](https://github.com/Ulydev/shack) - Lets you quickly add screen effects such as shake, rotate, shear and scale
+
 [lem](https://github.com/Ulydev/lem) - Allows you to set up events and call them whenever and wherever in your code
+
 [lue](https://github.com/Ulydev/lue) - Adds hue to your game
+
 [stager](https://github.com/Ulydev/stager) - Manages all the different scenes and lets you switch between them
 
 
