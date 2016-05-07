@@ -22,11 +22,11 @@ Start making your game by editing and adding new scenes! By default, **main.lua*
 ```lua
 --game.lua
 
-game:update(dt)
+function game.update(dt)
   moveObjects(dt)
 end
 
-game:draw()
+function game.draw()
   drawObjects()
 end
 ```
@@ -43,6 +43,8 @@ What's included
 [lue](https://github.com/Ulydev/lue) - Adds hue to your game
 
 [stager](https://github.com/Ulydev/stager) - Manages all the different scenes and lets you switch between them
+
+[wave](https://github.com/Ulydev/wave) - Audio manager with audio parsing functionalities
 
 
 

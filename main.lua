@@ -16,6 +16,7 @@ screen = require "lib.shack" --Screen effects (shake, rotate, shear, scale)
 lem = require "lib.lem" --Event manager
 lue = require "lib.lue" --Hue
 state = require "lib.stager" --Manages scenes and transitions
+audio = require "lib.wave" --Audio manager
 
 
 
