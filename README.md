@@ -44,7 +44,7 @@ What's included
 
 [stager](https://github.com/Ulydev/stager) - Manages all the different scenes and lets you switch between them
 
-[wave](https://github.com/Ulydev/wave) - Audio manager with audio parsing functionalities
+[wave](https://github.com/Ulydev/wave) - Audio manager with sound parsing functionalities
 
 
 
