@@ -4,6 +4,8 @@ local game = state:new()
 
 function game.load(params)
   
+  love.graphics.setNewFont(92)
+  
   --load
   
 end
@@ -15,6 +17,9 @@ function game.update(dt)
 end
 
 function game.draw()
+  
+  local time = love.timer.getTime()
+  love.graphics.printf("Welcome!", math.cos(time*5)*100, WHEIGHT*.5 + math.sin(time)*100, WWIDTH, "center")
   
   --draw
 

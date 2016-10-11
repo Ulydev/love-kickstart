@@ -4,7 +4,7 @@ io.stdout:setvbuf('no') --fixes print issues
 --//-\\-//-[[- SETTINGS -]]-\\-//-\\--
 --\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\--
 
-WWIDTH, WHEIGHT = 1920, 1080 --Game dimensions - 1920/1080 = 16/9 aspect ratio
+WWIDTH, WHEIGHT = 1920, 1080 --16/9 aspect ratio
 
 --//////////////////////////////////--
 --//-\\-//-[[- INCLUDES -]]-\\-//-\\--
@@ -13,10 +13,13 @@ WWIDTH, WHEIGHT = 1920, 1080 --Game dimensions - 1920/1080 = 16/9 aspect ratio
 --Libraries
 push = require "lib.push"
 screen = require "lib.shack" --Screen effects (shake, rotate, shear, scale)
-lem = require "lib.lem" --Event manager
+lem = require "lib.lem" --Events
 lue = require "lib.lue" --Hue
-state = require "lib.stager" --Manages scenes and transitions
-audio = require "lib.wave" --Audio manager
+state = require "lib.stager" --Scenes and transitions
+audio = require "lib.wave" --Audio
+trail = require "lib.trail" --Trails
+soft = require "lib.soft" --Lerp
+ease = require "lib.easy" --Easing
 
 
 
@@ -45,7 +48,10 @@ else
   RWIDTH = windowWidth*.7 RHEIGHT = windowHeight*.7
 end
 
-push:setupScreen(WWIDTH, WHEIGHT, RWIDTH, RHEIGHT, {fullscreen = fullscreenMode, resizable = not phoneMode})
+push:setupScreen(WWIDTH, WHEIGHT, RWIDTH, RHEIGHT, {
+  fullscreen = fullscreenMode,
+  resizable = not phoneMode
+})
 
 --///////////////////////////////////--
 --//-\\-//-[[- FUNCTIONS -]]-\\-//-\\--
