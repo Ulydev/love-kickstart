@@ -69,6 +69,9 @@ function love.update(dt)
   
   screen:update(dt)
   lue:update(dt)
+  soft:update(dt)
+  trail:update(dt)
+  audio:update(dt)
   
   state:update(dt)
   

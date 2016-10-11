@@ -46,6 +46,10 @@ What's included
 
 [wave](https://github.com/Ulydev/wave) - Audio manager with sound parsing functionalities
 
+[soft](https://github.com/Ulydev/soft) - Interpolates values
 
+[easy](https://github.com/Ulydev/easy) - A minimalist easing library
+
+[trail](https://github.com/Ulydev/trail) - Adds trail effects to your game
 
 [kickstart]: http://s32.postimg.org/t5bydkfad/love.png
